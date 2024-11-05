@@ -1,0 +1,46 @@
+.toptable{width:800px;padding:0px;font-family:Verdana;font-size:12px;}
+.header{width:100%;}
+.logo{text-align:left;width:90px;float:left;}
+.Headingtext{font-size:25px;text-align:left;color:Navy;margin-top:40px;font-weight:bold;}
+.Sline{height:1px;background-color:Red;}
+.SlineG{height:1px;background-color:Gray;}
+.Search{width:100%;text-align:left;vertical-align:middle;height:145px;}
+.serchtext{text-align:left;font-weight:bold;}
+.serchtext1{text-align:left;font-weight:bold;width:120px;}
+.csstext{border:1px solid Gray;}
+.Stdtxt{width:80px;}
+.Rgrid{width:98%;vertical-align:top;padding:0;margin:5px;}
+.ghead{background-color:#DDDDE6;vertical-align:top;margin:2px;font-weight:bold;font-size:11px;}
+.Rgrid td{padding-left:4px;padding-right:3px;padding-top:2px;text-align:center;border:1px solid Gray;}
+.SubTab{border:0;width:100%;padding:0px;margin:0px;line-height:20px;}
+.SubTab td{text-align:center;border:none;padding:0px;margin:0px;}
+.csstotal{font-weight:bold;}
+.btn{border:1px solid gray;background-color:#007DC5;color:White;cursor:pointer;
+    height: 24px;
+}
+.btn:hover{border:1px solid Orange;background-color:White;color:#007DC5;}
+.tblLast{width:100%;vertical-align:top;padding:0;margin:0px;border:1px solid orange;}
+.Result{font-size:14px;text-align:center;}
+.Pass{color:Green;}
+.NF{color:Red;}
+.NR{color:Gray;}
+.form-noindent{background-color:#FFFFFF;border:1px solid #C3D9FF;}
+.form-noindent td{font-family:arial,sans-serif;}
+.searchback{background:url(../Images/tdbg.gif);background-repeat:no-repeat !important;background-position:left;height:20px;}
+.ddl{border:1px solid Gray;width:290px;}
+.RESS{width:100%;vertical-align:top;padding:0;margin:0px;border:1px solid GRAY;color:Black;}
+.tdodd{font-size:11PX;font-weight:bold;}
+.note{color:Gray;font-size:10px;}
+#bodyloader{position:fixed;width:100%;height:100%;top:0;left:0;z-index:1000000000;background-color:#000;opacity:0.9;filter:alpha(opacity=90);display:block;}
+#bodyloader{position:fixed;width:100%;height:100%;top:0;left:0;z-index:1000000000;background:url(../Images/preloaderbg.png) left top repeat;display:block;}
+.bodyloader{text-align:center;color:#FFF;font-size:13px;font-family:Arial, Helvetica, sans-serif;}
+.preloaderbox{width:250px;height:45px;border:#990000 solid 2px;font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#666;text-align:center;margin:20% auto 0 auto;background-color:#fff;}
+.examname{font-weight:12px;text-transform:uppercase;font-weight:bold;}
+.getlisted {margin-top: 0px;height: 17px;margin-bottom: 0px;}
+.getlisted li {font-weight:200;list-style-type:none; float:left;padding-left:3px}
+.msghide{display:none;}
+@media print
+{
+    .printdiv{display: none;}
+    .msghide{display:block;}
+}
