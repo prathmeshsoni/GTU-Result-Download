@@ -268,10 +268,12 @@ class DownloadResult:
 
 
 if __name__ == '__main__':
-    ddlbatch = '4381$S2024$2024-09-11$current$0'
+    # ddlbatch = '4381$S2024$2024-09-11$current$0'
+    ddlbatch = '4378$S2024$2024-08-31$current$0'
     
     list_enroll = [
-        '231430131014',
+        # '231430131014',
+        '221430142012',
     ]
     
     for i in list_enroll:
